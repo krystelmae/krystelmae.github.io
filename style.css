@@ -12,18 +12,14 @@ body{
 
 /* Navbar */
 .navbar {
-    background-color:#674d3c;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#674d3c;
     color: #fff2df;
-    position: stcky;
+    position: sticky;
+    height: 100px;
     top: 0px;
-    box-shadow: 3px 3px 15px #d9ad7c;
-    padding: 15px 8%;
-    margin:auto;
-
-  
 }
 .navbar ul{
     display: flex;
@@ -32,14 +28,15 @@ body{
 
 }
 .navbar ul li{
+    display: inline-block;
     font-family: century;
-    font-size: 20px;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 .navbar ul li a{
     text-decoration: none;
     color: #fff2df;
-    padding: 8px 25px;
+    padding: 8px 20px;
     transition: all 0.3s ease;
 }
 .navbar ul li a:hover{
@@ -51,29 +48,16 @@ body{
 
 
 /* Home */
-.left-sidebar{
-    width: 15%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    background: #a2836e;
-}
-
 .img-box{
-  width: 40%;
-  height: 80%;
+  width: 30%;
+  height: 70%;
   position: absolute;
-  bottom: 7%;
+  bottom: 10%;
   left:100px
   
 }
-.info{
-    margin-left: 40%;
-    margin-top: 15%;
-    margin-bottom: 30%;
-}
 .img-box img{
-    width: 90%;
+    width: 70%;
     cursor: pointer;
     margin-top: 12%;
     margin-bottom: 80%;
@@ -86,6 +70,11 @@ body{
 .img-box img:hover{
     filter: grayscale(1);
 }
+.info{
+    margin-left: 40%;
+    margin-top: 15%;
+    margin-bottom: 30%;
+}
 .info h1 {
     font-size: 50px;
     color: #4f3222;
@@ -97,7 +86,6 @@ body{
     text-align: center;
     color: #674d3c;
     line-height: 22px;
-  
 } 
 .el{
     font-family: century;
@@ -108,8 +96,7 @@ body{
     display: inline-block;
     margin-right: 20px;
     margin-top: 30px;
-    margin-bottom: 10px;
-  
+    margin-bottom: 10px; 
 }
 .social-media a{
    font-size: 35px;
@@ -117,13 +104,12 @@ body{
    padding: 10px;
    margin-left: 200px;
 
-   
-
 }
 .social-media a:hover{
     color: #d9ad7c;
     transition: all 0.3s ease-out ;
 }
+
 
 /* About Page */
 #about{
