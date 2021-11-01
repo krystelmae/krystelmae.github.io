@@ -58,7 +58,7 @@ body{
     gap: .5rem;
 }
 .img-box{
-    flex: 1 1 30rem;
+    flex: 1 1 35rem;
 }
 .img-box img{
     width: 70%;
@@ -76,13 +76,13 @@ body{
     filter:grayscale(1);
 }
 .info{
-    flex: 1 1 20rem;
+    flex: 1 1 40rem;
     font-family: century;
     color: #4b2816;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 5rem 0;
-    margin-top: 2rem;
-    margin-left: 5rem ;
+    margin-top: -1.5%;
+    margin-left: 4.5rem ;
     text-transform: none;
 }
 .info .intro{
@@ -97,17 +97,19 @@ body{
     padding: .5rem 0;
 }
 .social-media{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 .social-icon{
-    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+    padding: 1.5rem;
     position: relative;
     display: flex;
     justify-content: center;
     outline: none;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     text-decoration: none;
 }
 .icon-inner{
@@ -118,9 +120,10 @@ body{
 }
 .social-icon i{
     position: relative;
-    margin-top: .8rem;
+    margin-top: .5rem;
+    margin-left: 1.5rem;
     transition: 0.3s;
-    font-size: 30px;
+    font-size: 35px;
     z-index: 1;
 }
 .social-media a{
